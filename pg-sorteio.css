@@ -78,3 +78,25 @@ height: 250px;
     color: white;
     font-size: 20px;
 }
+
+@media screen and (max-width: 1328.2px) {
+    .container {
+        display: block;
+        margin-top: -20px;
+    }
+    .dois{
+        position:static;
+        height: 180px;
+    }
+    .um{
+        position: relative;
+        top: -15px;   
+    }
+
+    #aqui{
+        left: 0;
+        top: -450px;
+        border: rgba(62,161,219,1) 2px solid;
+    }
+    
+}
