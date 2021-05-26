@@ -3,26 +3,16 @@ body{
 }
 
 .container{
-    display: inline-block; 
-}
-
-.um{
-    text-align: center;
-    margin-left: 75px;
-    margin-right: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
 }
 
 .dois{
-
 border: 2px solid;
 border-radius: 8px;
 text-align: center;
 font-size: 25px;
-position: relative;
-top: -150px;
-width: 750px;
-height: 250px;
-
 }
 
 #mostrar{
@@ -38,8 +28,7 @@ height: 250px;
     background-position: center;
     background-size: contain;
     text-align: center;
-    position: relative;
-    left: 40%;
+    margin: auto;
     border: steelblue 2px solid;
     top: -100px;
     font-size: 20px;
@@ -77,26 +66,4 @@ height: 250px;
     background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
     color: white;
     font-size: 20px;
-}
-
-@media screen and (max-width: 1328.2px) {
-    .container {
-        display: block;
-        margin-top: -20px;
-    }
-    .dois{
-        position:static;
-        height: 180px;
-    }
-    .um{
-        position: relative;
-        top: -15px;   
-    }
-
-    #aqui{
-        left: 0;
-        top: -450px;
-        border: rgba(62,161,219,1) 2px solid;
-    }
-    
 }
