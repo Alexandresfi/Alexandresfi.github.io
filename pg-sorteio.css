@@ -67,3 +67,16 @@ font-size: 25px;
     color: white;
     font-size: 20px;
 }
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+li{
+    margin-left: 20px;
+}
+li>p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}
